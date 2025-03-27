@@ -1,3 +1,54 @@
-div{
-    border: 2px solid green;
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #E3F2FD;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+header h1{
+    font-size: 2.5rem;
+    color: #1c3d5a;
+}
+
+ol{
+    list-style-type: none;
+    padding: 0;
+}
+
+ol li{
+    margin: 10px 0;
+}
+
+ol a{
+    color: #1c3d5a;
+    text-decoration: none;
+}
+ol a:hover{
+    text-decoration: underline;
+    color: #0d2538;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+img{
+    width: 350px;
+}
+
+#card1, #card2, #card3, #card4, #card5, #card6, #card7{
+    display: flex;
+    background-color: #e3f2fd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
