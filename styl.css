@@ -3,16 +3,23 @@
     margin: 0;
 }
 
+body{
+    background-color: #e3f2fd;
+}
+
 header{
-    background-color: #E3F2FD;
+    background-color: #1c3d5a;
+    margin-top: 0;
     padding: 20px;
     text-align: center;
-    font-family: 'Arial', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
 }
 
 header h1{
-    font-size: 2.5rem;
-    color: #1c3d5a;
+    font-size: 40px;
+    color: whitesmoke;
+    font-weight: lighter;
 }
 
 ol{
@@ -22,6 +29,7 @@ ol{
 
 ol li{
     margin: 10px 0;
+    font-style: italic;
 }
 
 ol a{
@@ -33,13 +41,18 @@ ol a:hover{
     color: #0d2538;
 }
 
+h2{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    color: ;
+}
+
 main{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 20px;
-    gap: 20px;
-    overflow-x: auto;
 }
 
 img{
