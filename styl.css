@@ -1,13 +1,13 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-body{
+body {
     background-color: #e3f2fd;
 }
 
-header{
+header {
     background-color: #1c3d5a;
     margin-top: 0;
     padding: 20px;
@@ -16,52 +16,150 @@ header{
     font-style: italic;
 }
 
-header h1{
+header h1 {
     font-size: 40px;
     color: whitesmoke;
     font-weight: lighter;
 }
 
-ol{
+ol {
     list-style-type: none;
     padding: 0;
 }
 
-ol li{
+ol li {
     margin: 10px 0;
     font-style: italic;
 }
 
-ol a{
+ol a {
     color: #1c3d5a;
     text-decoration: none;
 }
-ol a:hover{
+
+ol a:hover {
     text-decoration: underline;
     color: #0d2538;
 }
 
-h2{
+h2 {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: lighter;
-    color: ;
+    color: #1c3d5a;
 }
 
-main{
+main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
 }
 
-img{
+div img {
     width: 350px;
 }
 
-#card1, #card2, #card3, #card4, #card5, #card6, #card7{
+#card1,
+#card2,
+#card3,
+#card4,
+#card5,
+#card6,
+#card7 {
     display: flex;
     background-color: #e3f2fd;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sobre-crema {
+    display: flex;
+    gap: 20px;
+}
+
+.sobre-viena {
+    display: flex;
+    gap: 20px;
+}
+
+.sobre-hallstat {
+    display: flex;
+    gap: 20px;
+}
+
+.sobre-edimburgo{
+    display: flex;
+    gap: 20px;
+}
+
+.sobre-arizona{
+    display: flex;
+    gap: 20px;
+}
+
+.sobre-cusco{
+    display: flex;
+    gap: 20px;
+}
+
+.sobre-melbourne{
+    display: flex;
+    gap: 20px;
+}
+
+.lado-esquerdo {
+    width: 60%;
+    background-color: #0D2538;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #e3f2fd;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.lado-direito {
+    width: 30%;
+    background-color: #0D2538;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #e3f2fd;
+    font-family: 'Courier New', Courier, monospace;
+}
+.voltar-topo{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #1c3d5a;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    text-decoration: none;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.voltar-topo:hover{
+    background-color: #45749d;
+    width: 55px;
+    height: 55px;
+}
+
+article li{
+    list-style: none;
+}
+
+aside li{
+    list-style: none;
+}
+
+article h3, h4{
+    background-color: #45749d;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    color: lightgrey;
 }
