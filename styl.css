@@ -16,6 +16,26 @@ header {
     font-style: italic;
 }
 
+nav a{
+    text-decoration: none;
+    color: #5b90be;
+    margin-right: 70px;
+    padding: 0;
+    padding-left: 2%;
+}
+
+nav a:hover{
+    font-size: large;
+    text-decoration: underline;
+}
+
+h2{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    color: #1c3d5a;
+}
+
 header h1 {
     font-size: 40px;
     color: whitesmoke;
@@ -25,6 +45,7 @@ header h1 {
 ol {
     list-style-type: none;
     padding: 0;
+    text-align: center;
 }
 
 ol li {
@@ -42,11 +63,13 @@ ol a:hover {
     color: #0d2538;
 }
 
-h2 {
+.locais{
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: lighter;
     color: #1c3d5a;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 main {
@@ -58,6 +81,14 @@ main {
 
 div img {
     width: 350px;
+    margin-left: 10px;
+    margin-right: 8px;
+    max-height: 470.79px;
+}
+#crema{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #card1,
@@ -88,46 +119,54 @@ div img {
     gap: 20px;
 }
 
-.sobre-edimburgo{
+.sobre-edimburgo {
     display: flex;
     gap: 20px;
 }
 
-.sobre-arizona{
+.sobre-arizona {
     display: flex;
     gap: 20px;
 }
 
-.sobre-cusco{
+.sobre-cusco {
     display: flex;
     gap: 20px;
 }
 
-.sobre-melbourne{
+.sobre-melbourne {
     display: flex;
     gap: 20px;
 }
 
 .lado-esquerdo {
     width: 60%;
-    background-color: #0D2538;
+    background-color: #f9f9f9;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    color: #e3f2fd;
-    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+}
+
+.lado-esquerdo:hover {
+    font-size: large;
 }
 
 .lado-direito {
     width: 30%;
-    background-color: #0D2538;
+    background-color: #f9f9f9;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    color: #e3f2fd;
-    font-family: 'Courier New', Courier, monospace;
+    margin-right: 20px;
+    margin-bottom: 10px;
 }
-.voltar-topo{
+
+.lado-direito:hover {
+    font-size: large;
+}
+
+.voltar-topo {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -143,23 +182,53 @@ div img {
     font-weight: bold;
 }
 
-.voltar-topo:hover{
+.voltar-topo:hover {
     background-color: #45749d;
     width: 55px;
     height: 55px;
 }
 
-article li{
+article li {
     list-style: none;
 }
 
-aside li{
+aside li {
     list-style: none;
 }
 
-article h3, h4{
-    background-color: #45749d;
+article h3,
+h4 {
+    background-color: #e3f2fd;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: lighter;
-    color: lightgrey;
+    color: #0d2538;
+}
+
+aside a {
+    color: #0d2538;
+    text-decoration: none;
+}
+
+aside a:hover {
+    font-size: large;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #1c3d5a;
+    margin-bottom: 0;
+    padding: 20px;
+    text-align: left;
+    font-family: monospace;
+    color: #e3f2fd;
+    font-weight: lighter;
+}
+
+.link-rodape{
+    text-decoration: none;
+    color: #e3f2fd;
+}
+
+.link-rodape:hover{
+    font-size: large;
 }
